@@ -1,0 +1,66 @@
+import url ""
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open sans' ;
+}
+body{
+  background-image: url(https://img.freepik.com/vector-gratis/fondo-textura-papel-viejo-realista_52683-73779.jpg);
+  background-size: 940px;
+}
+nav{
+  max-width: 800px;
+  margin: auto;
+  background-color: #362000;
+  font-size: 30px;
+  margin-top: 0;
+}
+.menu-horizontal{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+.menu-horizontal > li > a{
+  display: block;
+  padding: 15px 20px;
+  color: #b19977;
+  text-decoration: none;
+}
+.menu-horizontal > li:hover{
+  background-color: #4b2f05;
+}
+.menu-vertical{
+  position: absolute;
+  display: none;
+  list-style: none;
+  width: 200px;
+  background-color: rgba(0, 0, 0, .5);
+}
+.menu-horizontal li:hover .menu-vertical{
+  display: block;
+}
+.menu-vertical li:hover{
+  background-color: black;
+}
+.menu-vertical li a{
+  display: block;
+  color: white;
+  padding: 15px 15px 15px 20px;
+  text-decoration: none;
+}
+h1 {
+  text-align: center;
+  color: #171821;
+  font-size: 40px;
+  margin: 1%;
+}
+.imagen-redonda {
+  width: 387px;
+  height: 444px;
+  margin: 0 auto;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+
+}
